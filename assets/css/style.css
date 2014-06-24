@@ -1,5 +1,5 @@
 body {
-	text-align: center;
+  text-align: center;
 }
 
 
@@ -20,6 +20,11 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5;
+}
+
+@font-face {
+    font-family: hoboChromaFont;
+    src: url(hobo_std.tttf);
 }
 
 body > .container {
@@ -50,7 +55,7 @@ padding-bottom: 7px;
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 color: #555;
-/* background-color: #e7e7e7; */
+background-color: #FFFFFF;
 }
 
 .navbar-default {
