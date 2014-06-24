@@ -1,5 +1,5 @@
-<?php include 'header.php'; ?>
-<?php include 'navbar.php'; ?>
+<?php include 'assets/header.php'; ?>
+<?php include 'assets/navbar.php'; ?>
 
     <!-- Begin page content -->
     <div class="container">
@@ -11,4 +11,4 @@
       <p>Or <a href="http://chromahills.com">return back</a> to the main site.</p>
     </div>
 
-<?php require 'footer.php'; ?>
+<?php require 'assets/footer.php'; ?>

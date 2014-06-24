@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require 'assets/header.php'; ?>
 
 <?php
 
@@ -23,4 +23,4 @@ Age INT
 
 ?>
 
-<?php require 'footer.php'; ?>
+<?php require 'assets/footer.php'; ?>
