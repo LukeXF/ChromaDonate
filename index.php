@@ -4,6 +4,7 @@
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
+      	<img src="/img/CHLogo.png" alt="some_text">
         <h1>Chroma Hills Donation System</h1>
       </div>
       <p class="lead">Donate to one of the most popular resource packs in the whole of Minecraft to show your support and receive benefits to exlusive/early-access content.</p>
