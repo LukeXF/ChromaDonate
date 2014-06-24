@@ -1,64 +1,256 @@
 body {
-  text-align: center;
+	text-align: center;
+	overflow-x:hidden;
+}
+
+/* Importing new fonts
+-------------------------------------------------- */
+h2, h3, h4, div, h5, p {
+	font-family: "lato";
+}
+
+h1 {
+	font-family: "Hobo std";
 }
 
 
 /* Navbar and footer styling
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	margin-top: 30px;
 }
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-@font-face {
-    font-family: hoboChromaFont;
-    src: url(hobo_std.tttf);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
 }
 
 body > .container {
-  padding: 60px 15px 0;
+	padding: 60px 15px 0;
 }
 .container .text-muted {
-  margin: 20px 0;
+	margin: 20px 0;
 }
 
 #footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 code {
-  font-size: 80%;
+	font-size: 80%;
 }
 
-/* Expand navbar sizing
--------------------------------------------------- */
+.navbar-brand {
+	font-size: 30px;
+	color: #525252;
+	font-family: "Hobo std";
+}
 
 .navbar-fixed-top {
 top: 0;
 border-width: 0 0 1px;
-padding-top: 7px;
-padding-bottom: 7px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color: #555;
+color: #777;
+font-size: 17px;
 background-color: #FFFFFF;
+	font-family: "Hobo std";
 }
 
 .navbar-default {
 background-color: #FFFFFF;
 border-color: #e7e7e7;
+	font-family: "Hobo std";
 }
+
+.navbar-default .navbar-nav > li > a {
+color: #777;
+font-size: 17px;
+	font-family: "Hobo std";
+}
+
+
+
+
+
+
+
+/* Sections of pages (colours)
+-------------------------------------------------- */
+.cream {
+	background: #f0f2f5;
+	color: #777B87;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow-x:hidden;
+}
+
+.blue {
+	background: #53b2e5;
+	color: #166793;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow-x:hidden;
+}
+
+.dark {
+	background-image:url('../img/backdrop.png');
+	background-size: 100%;
+	background-position: center center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow-x:hidden;
+}
+
+.grey {
+	background-image:url('../img/backdrop.png');
+	background-size: 100%;
+	background-position: center center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow-x:hidden;
+}
+
+
+
+
+
+
+
+/* Enter name at bottom of index form stuff
+-------------------------------------------------- */
+.grey .browser .bar .address {
+border: 1px solid hsl(207, 11%, 86%);
+border-radius: 2px;
+padding: 10px;
+width: 82.5%;
+color: #505050;
+font-family: Lato;
+}
+
+.grey .browser .bar {
+border-bottom: 1px solid hsl(207, 11%, 86%);
+padding: 5px;
+background: hsl(207, 11%, 98%);
+border-radius: 3px 3px 0 0;
+}
+
+.grey .browser {
+width: 400px;
+margin: 30px auto 0px;
+border: 1px solid hsl(207, 11%, 86%);
+border-radius: 3px;
+box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.1);
+}
+
+.button-grey:hover {
+color: black;
+}
+.button:hover {
+color: hsl(202, 100%, 38%);
+background: white;
+cursor: pointer;
+}
+.button-grey:hover {
+color: black;
+}
+.button-grey {
+background: white;
+border: 1px solid hsl(207, 11%, 86%);
+padding: 8px;
+font-size: 12px;
+color: #888;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+color: hsl(202, 100%, 38%);
+}
+.button {
+border: 2px solid hsl(202, 100%, 38%);
+border-radius: 2px;
+padding: 8px 12px;
+font-weight: 600;
+background: hsl(202, 100%, 38%);
+color: white;
+}
+.button-grey {
+background: white;
+border: 1px solid hsl(207, 11%, 86%);
+padding: 8px;
+font-size: 12px;
+color: #888;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+color: hsl(202, 100%, 38%);
+font-family: Lato;
+padding-top: 12px;
+padding-bottom: 11px;
+}
+
+
+
+
+
+
+
+/* Index
+-------------------------------------------------- */
+.width-limit{
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	overflow-x:hidden;
+}
+
+body {
+	background: #31343c;
+	color: #fff;
+}
+
+.why-donate {
+	padding-top: 10px;
+}
+
+.social {
+  width:60px;
+  height:60px;
+  line-height:50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color:#f5f5f5;
+  text-align:center;
+  text-decoration:none;
+  background: #464646;
+  box-shadow: 0 0 3px gray;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.social:hover {
+    background: #262626;
+}
+
