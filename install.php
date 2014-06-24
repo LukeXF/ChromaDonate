@@ -2,7 +2,6 @@
 
 <?php
 
-
 // Create table
 $sql="CREATE TABLE Persons(FirstName CHAR(30),LastName CHAR(30),Age INT)";
 
