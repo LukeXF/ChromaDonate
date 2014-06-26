@@ -144,19 +144,23 @@
 
 
 
+
 	<div class="grey"><div class="container">
 
 		<h1>Let's Begin!</h1>
 		<p class="lead width-limit">So after reading though all this all you have to do to continue is simply enter in your name to begin, it really is that simple.</p>
 
-		<div class="browser">
 
-			<div class="bar">
-				<input class="address" value="" placeholder="Steve Smith" target="_blank" name="u" id="u">
-				<input type="submit" value="enter" class="button button-grey">
+		<form method='get' action='#' target="_blank">
+			<div class="browser">
+
+				<div class="bar">
+					<input class="address" value="" placeholder="Steve Smith" target="_blank" name="u" id="u">
+					<input type="submit" value="enter" class="button button-grey">
+				</div>
+
 			</div>
-
-		</div>
+		</form>
 
 
 	</div><!--contain--></div><!--grey-->

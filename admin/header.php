@@ -11,18 +11,19 @@
 	<meta charset="utf-8">
 
 	<!-- Stylesheet for the website -->
-	<link rel="stylesheet" href="./assets/css/bootstrap.css">
-	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/admin.css">
 
 	<!-- Fonts from TypeKit -->
 	<script type="text/javascript" src="//use.typekit.net/gky2akt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<!-- Database connection loading-->
-	<?php require './assets/protected/config.php'; ?>
+	<?php require '../assets/protected/config.php'; ?>
 
 	<!-- jQuery or Zepto -->
-	<script src="./assets/js/jquery.js"></script>
+	<script src="../assets/js/jquery.js"></script>
 
 
 
