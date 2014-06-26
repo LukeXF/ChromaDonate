@@ -10,18 +10,14 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="#">Chroma Hills</a>
+					<img src="./../assets/img/CHLogo.png" class="nav-logo" alt="some_text" height="50px"><a class="navbar-brand" href="#"> Admin Area</a>
 
 				</div>
 
 
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-
-						<li class="active"><a href="index.php">Donation Home</a></li>
-						<li><a href="#about">Why Donate?</a></li>
-						<li><a href="#about">Social</a></li>
-						<li><a href="#about">Donate</a></li>
+						<li><a href="/login">Login</a></li>
 
 
 					</ul>
