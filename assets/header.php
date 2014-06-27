@@ -21,7 +21,7 @@
 	<!-- Database connection loading-->
 	<?php require './assets/protected/config.php'; ?>
 
-	<!-- jQuery or Zepto -->
+	<!-- jQuery-->
 	<script src="./assets/js/jquery.js"></script>
 
 

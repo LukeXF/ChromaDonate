@@ -9,8 +9,78 @@ h2, h3, h4, div, h5, p {
 	font-family: "lato";
 }
 
-h1 {
+h1, {
 	font-family: "Hobo std";
+}
+
+
+/* Install styling
+-------------------------------------------------- */
+.more {
+  	display: none;
+	padding: 5px;
+	padding-left: 10px;
+	font-size: 15px;
+	font-family: Lato;
+	background: #EDEDED;
+	border-radius: 4px;
+	border: solid #D0D0D0 1px;
+	margin-bottom: 40px;
+}
+
+.code2 {
+  	padding-top: 1px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	font-size: 15px;
+	font-family: Lato;
+	color: #0084B1;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: solid #D0D0D0 1px;
+}
+
+.code2 b {
+	color: #004C6C;
+}
+
+code {
+	padding-top: 1px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	font-size: 15px;
+	font-family: Lato;
+	color: #00BEFF;
+	white-space: nowrap;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: solid #D0D0D0 1px;
+}
+
+.install .bar .address {
+border: 1px solid hsl(207, 11%, 86%);
+border-radius: 2px;
+padding: 10px;
+width: 100%;
+color: #505050;
+font-family: Lato;
+}
+
+.install .bar {
+border-bottom: 1px solid hsl(207, 11%, 86%);
+padding: 5px;
+background: hsl(207, 11%, 98%);
+border-radius: 3px 3px 0 0;
+}
+
+.install {
+width: 300px;
+margin: 30px auto 0px;
+border: 1px solid hsl(207, 11%, 86%);
+border-radius: 3px;
+box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.1);
 }
 
 
@@ -44,10 +114,6 @@ body > .container {
 #footer > .container {
 	padding-right: 15px;
 	padding-left: 15px;
-}
-
-code {
-	font-size: 80%;
 }
 
 .navbar-brand {
@@ -142,7 +208,7 @@ font-size: 17px;
 
 /* Enter name at bottom of index form stuff
 -------------------------------------------------- */
-.grey .browser .bar .address {
+.browser .bar .address {
 border: 1px solid hsl(207, 11%, 86%);
 border-radius: 2px;
 padding: 10px;
@@ -151,14 +217,14 @@ color: #505050;
 font-family: Lato;
 }
 
-.grey .browser .bar {
+.browser .bar {
 border-bottom: 1px solid hsl(207, 11%, 86%);
 padding: 5px;
 background: hsl(207, 11%, 98%);
 border-radius: 3px 3px 0 0;
 }
 
-.grey .browser {
+.browser {
 width: 400px;
 margin: 30px auto 0px;
 border: 1px solid hsl(207, 11%, 86%);
